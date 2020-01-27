@@ -14,8 +14,20 @@ header {
 
 h1 {
     margin-bottom: 0;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 3em;
 }
 
+h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.4em;
+    margin-block-start: 0px;
+}
+
+p {
+    opacity: 0.9;
+}
 form {
     width: 600px;
     height: 200px;
@@ -29,6 +41,12 @@ form {
 
 form label {
     height: 30px;
+    font-family: 'Patrick Hand', cursive;
+    color: brown;
+}
+
+input[type=checkbox]:checked label {
+    text-decoration: line-through;
 }
 
 footer {
@@ -49,19 +67,47 @@ aside {
     text-align: center;
 }
 
+button {
+    background: #BC7058;
+    padding: 10px 25px;
+    color: honeydew;
+    border: none;
+}
+
+.sub-heading {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+    
+}
+.article-heading {
+    opacity: 0.7;
+    position: relative;
+    top: -18px;
+}
+
+.social-logos img:nth-last-of-type(2) {
+    margin-left: 10px;
+}
 .logo-header {
     display: flex;
-    width: 280px;
+    width: 210px;
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 .logo-header h2, p {
     margin: 0;
 }
 
+.logo-header p {
+    position: relative;
+    top: -10px;
+}
+
+.main-text {
+    margin: 30px 0;
+}
 .author-info {
     display: flex;
     align-items: center;
@@ -105,5 +151,8 @@ aside {
     z-index: -1;
 }
 
+#choco-pizza {
+    width: 100%;
+}
 
 
